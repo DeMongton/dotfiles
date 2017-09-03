@@ -1,0 +1,6 @@
+#Default
+.DS_Store
+
+
+#Ignore Pathogen.vim 
+vim/.vim/autoload/pathogen.vim
