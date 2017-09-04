@@ -999,7 +999,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/pascal</string>
+			<string>$HOME</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -1727,7 +1727,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/pascal</string>
+			<string>$HOME</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -2320,7 +2320,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/pascal</string>
+			<string>$HOME</string>
 		</dict>
 	</array>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
@@ -2369,7 +2369,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/pascal/dotfiles/iterm2/.iterm2/config</string>
+	<string>$HOME/dotfiles/iterm2/.iterm2/config</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
