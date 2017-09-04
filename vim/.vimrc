@@ -1,11 +1,12 @@
 "-----Standard Vim Configurations-----
+syntax on
+set number
 set ruler
 set rulerformat=%15(%c%V\ %p%%%)
 set mouse=a
 filetype on
 filetype plugin on
 filetype indent on
-set number
 set laststatus=2
 set t_Co=256
 set noshowmode  
@@ -16,11 +17,12 @@ set clipboard=unnamed
 set backspace=indent,eol,start
 set autoread
 set visualbell
-set timeoutlen=1000 ttimeoutlen=0
 set wildmode=full
 set wildmenu
-syntax on
 set omnifunc=syntaxcomplete#Complete
+set cursorline
+set cursorcolumn
+set timeoutlen=1000 ttimeoutlen=0
 
 "-----Custom Mappings-----
 map <leader><space> :!mix test<CR>
