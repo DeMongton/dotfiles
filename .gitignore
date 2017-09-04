@@ -3,7 +3,7 @@
 
 #Ignore Vim related files
 .netrwhist
-
+.*.swp
 
 #Ignore Pathogen.vim 
 vim/.vim/autoload/pathogen.vim
