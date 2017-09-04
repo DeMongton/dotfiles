@@ -16,3 +16,6 @@
 [submodule "vim/.vim/bundle/AutoComplPop"]
 	path = vim/.vim/bundle/AutoComplPop
 	url = https://github.com/vim-scripts/AutoComplPop/
+[submodule "iterm2/.iterm2/themes/iterm2-snazzy"]
+	path = iterm2/.iterm2/themes/iterm2-snazzy
+	url = https://github.com/sindresorhus/iterm2-snazzy.git
