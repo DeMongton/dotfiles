@@ -1,6 +1,9 @@
 #Default
 .DS_Store
 
+#Ignore Vim related files
+.netrwhist
+
 
 #Ignore Pathogen.vim 
 vim/.vim/autoload/pathogen.vim

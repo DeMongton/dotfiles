@@ -85,5 +85,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias weather= "curl https://www.wttr.in/Vancouver"
+
+#tmux
+if [ "$TMUX" = "" ]; then tmux; fi
+
+#rbenv
 eval "$(rbenv init -)"
+
+#weather
+alias weather= "curl https://www.wttr.in/Vancouver"
