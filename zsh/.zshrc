@@ -93,4 +93,4 @@ if [ "$TMUX" = "" ]; then tmux; fi
 eval "$(rbenv init -)"
 
 #weather
-alias weather= "curl https://www.wttr.in/Vancouver"
+alias weather='curl http://www.wttr.in/Vancouver'
