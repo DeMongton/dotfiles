@@ -10,7 +10,7 @@ filetype indent on
 set laststatus=2
 set t_Co=256
 set noshowmode  
-set incsearch
+set hls is
 set ignorecase
 set autoindent
 set clipboard=unnamed
@@ -23,6 +23,8 @@ set omnifunc=syntaxcomplete#Complete
 set cursorline
 set cursorcolumn
 set timeoutlen=1000 ttimeoutlen=0
+let &undodir=$TMPDIR
+set undofile
 
 "-----Custom Mappings-----
 map <leader><space> :!mix test<CR>
@@ -43,5 +45,3 @@ let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 let g:syntastic_vim_checkers = ['vint', 'vimlint']
 let g:syntastic_elixir_checkers = ['elixir']
 let g:syntastic_enable_elixir_checker = 1
-
-

@@ -356,6 +356,10 @@
 	</dict>
 	<key>Default Bookmark Guid</key>
 	<string>14AF26C3-40BE-4A4F-B3F4-A3F1A6B7759E</string>
+	<key>DisableWindowSizeSnap</key>
+	<false/>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
@@ -400,12 +404,14 @@
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>619 279 445 335 0 0 1280 777 </string>
+	<key>NSWindow Frame SUUpdateAlert</key>
+	<string>650 499 620 392 0 0 1920 1057 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>525 4 606 456 0 0 1920 1058 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>140 301 796 473 0 0 1280 778 </string>
+	<string>73 231 918 512 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>382 112 1025 587 0 0 1280 778 </string>
+	<string>927 251 991 545 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>511 547 585 377 0 0 1920 1058 </string>
 	<key>New Bookmarks</key>
@@ -1250,6 +1256,8 @@
 			<false/>
 			<key>Blur</key>
 			<false/>
+			<key>Blur Radius</key>
+			<real>0.10000000000000001</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -1707,7 +1715,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.051819064349112424</real>
+			<real>0.0</real>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>
@@ -2369,7 +2377,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>$HOME/dotfiles/iterm2/.iterm2/config</string>
+	<string>/Users/pascal/dotfiles/iterm2/.iterm2/config</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
@@ -2381,7 +2389,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-09-03T20:54:19Z</date>
+	<date>2017-09-19T20:28:24Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>Selection Respects Soft Boundaries</key>
@@ -2394,9 +2402,11 @@
 	<string>/-+\~_.</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
+	<key>findMode_iTerm</key>
+	<integer>0</integer>
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.15</string>
+	<string>3.1.0</string>
 </dict>
 </plist>
