@@ -13,9 +13,18 @@
 [submodule "vim/.vim/bundle/vim-elixir"]
 	path = vim/.vim/bundle/vim-elixir
 	url = https://github.com/elixir-editors/vim-elixir
-[submodule "vim/.vim/bundle/AutoComplPop"]
-	path = vim/.vim/bundle/AutoComplPop
-	url = https://github.com/vim-scripts/AutoComplPop/
 [submodule "iterm2/.iterm2/themes/iterm2-snazzy"]
 	path = iterm2/.iterm2/themes/iterm2-snazzy
 	url = https://github.com/sindresorhus/iterm2-snazzy.git
+[submodule "vim/.vim/bundle/vim-javascript"]
+	path = vim/.vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "vim/.vim/bundle/vim-jsx"]
+	path = vim/.vim/bundle/vim-jsx
+	url = https://github.com/mxw/vim-jsx.git
+[submodule "vim/.vim/bundle/vim-prettier"]
+	path = vim/.vim/bundle/vim-prettier
+	url = https://github.com/prettier/vim-prettier
+[submodule "vim/.vim/bundle/vim-fugitive"]
+	path = vim/.vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
