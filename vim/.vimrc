@@ -51,4 +51,4 @@ let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 let g:syntastic_vim_checkers = ['vint', 'vimlint']
 let g:syntastic_elixir_checkers = ['elixir']
 let g:syntastic_enable_elixir_checker = 1
-let g:jsx_ext_required = 0
+"let g:jsx_ext_required = 0
