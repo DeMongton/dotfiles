@@ -10,12 +10,13 @@ filetype plugin on
 filetype indent on
 set laststatus=2
 set t_Co=256
-colorscheme peachpuff
+colorscheme peachpuff 
 hi LineNr ctermfg=239 ctermbg=236 
 hi CursorLineNr ctermfg=245 ctermbg=236
 hi CursorColumn ctermbg=DarkGray
 hi CursorLine cterm=NONE ctermbg=DarkGray
 hi! EndOfBuffer cterm=NONE 
+hi QuickFixLine ctermbg=167 ctermfg=white
 set noshowmode  
 set hls is
 set ignorecase
@@ -32,6 +33,14 @@ set cursorcolumn
 set timeoutlen=1000 ttimeoutlen=0
 let &undodir=$TMPDIR
 set undofile
+set tabstop=4
+set softtabstop=0
+set expandtab
+set shiftwidth=4
+set smarttab
+    
+
+
 "-----Custom Mappings-----
 map <leader><space> :!mix test<CR>
 
@@ -51,4 +60,6 @@ let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 let g:syntastic_vim_checkers = ['vint', 'vimlint']
 let g:syntastic_elixir_checkers = ['elixir']
 let g:syntastic_enable_elixir_checker = 1
-"let g:jsx_ext_required = 0
+let g:jsx_ext_required = 1
+hi SyntasticErrorLine  ctermfg=Green ctermbg=Green guifg=Green guibg=Green
+hi SyntasticErrorSymbol ctermfg=Green ctermbg=Green guifg=Green guibg=Green

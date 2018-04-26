@@ -93,13 +93,12 @@ eval "$(rbenv init -)"
 
 #weather
 alias weather='curl http://www.wttr.in/Vancouver'
-#nvm 
+#nvim 
 alias vim="nvim"
 alias vi="nvim"
 
-
 export NVM_DIR="/usr/local/opt/nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+. "$NVM_DIR/nvm.sh" --no-use
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -110,3 +109,21 @@ export NVM_DIR="/usr/local/opt/nvm"
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
+##Adds to the most recent Java version installed
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+
+##Android PATH settings
+##  export ANDROID_HOME=$HOME/Library/Android/sdk
+##  export PATH=$ANDROID_HOME/tools:$PATH
+##  export PATH=$ANDROID_HOME/platform-tools:$PATH
+
+
+export ANDROID_SDK=$HOME/Library/Android/sdk
+export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
+
+
+
+##Rust Toolchain
+export PATH="$HOME/.cargo/bin:$PATH"
+
