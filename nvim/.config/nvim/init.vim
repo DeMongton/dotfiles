@@ -17,6 +17,7 @@ hi CursorColumn ctermbg=DarkGray
 hi CursorLine cterm=NONE ctermbg=DarkGray
 hi! EndOfBuffer cterm=NONE 
 hi QuickFixLine ctermbg=167 ctermfg=white
+hi Visual term=reverse gui=reverse ctermbg=NONE
 set noshowmode  
 set hls is
 set ignorecase
