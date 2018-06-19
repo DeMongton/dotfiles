@@ -34,13 +34,15 @@ set cursorcolumn
 set timeoutlen=1000 ttimeoutlen=0
 let &undodir=$TMPDIR
 set undofile
-set tabstop=4
+"for Python set tabs to 4
+"set tabstop=4
+set tabstop=2
 set softtabstop=0
 set expandtab
-set shiftwidth=4
+"for python set shiftwidth to 4
+"set shiftwidth=4
+set shiftwidth=2
 set smarttab
-    
-
 
 "-----Custom Mappings-----
 map <leader><space> :!mix test<CR>
@@ -49,18 +51,25 @@ map <leader><space> :!mix test<CR>
 execute pathogen#infect()
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'onedark'
+let g:airline#extensions#ale#enabled = 1
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:sydntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_aggregate_errors = 1
-let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
-let g:syntastic_vim_checkers = ['vint', 'vimlint']
-let g:syntastic_elixir_checkers = ['elixir']
-let g:syntastic_enable_elixir_checker = 1
+"set statusline+=%{SyntasticStatuslineFlag()}
+"let g:syntastic_always_populate_loc_list = 1
+"let g:syntastic_auto_loc_list = 1
+"let g:sydntastic_check_on_open = 1
+"let g:syntastic_check_on_wq = 0
+"let g:syntastic_aggregate_errors = 1
+"let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
+"let g:syntastic_vim_checkers = ['vint', 'vimlint']
+"let g:syntastic_elixir_checkers = ['elixir']
+"let g:syntastic_enable_elixir_checker = 1
+"hi SyntasticErrorLine  ctermfg=Green ctermbg=Green guifg=Green guibg=Green
+"hi SyntasticErrorSymbol ctermfg=Green ctermbg=Green guifg=Green guibg=Green
 let g:jsx_ext_required = 1
-hi SyntasticErrorLine  ctermfg=Green ctermbg=Green guifg=Green guibg=Green
-hi SyntasticErrorSymbol ctermfg=Green ctermbg=Green guifg=Green guibg=Green
+"let g:ale_fixers = {
+"\   'javascript': ['eslint','rubocop'],
+"\}
+"
+let g:ale_completion_enabled = 1
+let g:ale_list_window_size = 20 

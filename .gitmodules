@@ -28,3 +28,9 @@
 [submodule "vim/.vim/bundle/vim-fugitive"]
 	path = vim/.vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "nvim/.config/nvim/bundle/ale"]
+	path = nvim/.config/nvim/bundle/ale
+	url = https://github.com/w0rp/ale.git
+[submodule "nvim/.config/nvim/vim-pathogen"]
+	path = nvim/.config/nvim/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git

@@ -10,6 +10,9 @@ export ZSH=$HOME/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="bureau"
 
+
+
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -85,8 +88,16 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+
+
+
+
 #tmux
 if [ "$TMUX" = "" ]; then tmux; fi
+
+
+#pyenv
+eval "$(pyenv init -)" 
 
 #rbenv
 eval "$(rbenv init -)"
@@ -97,11 +108,20 @@ alias weather='curl http://www.wttr.in/Vancouver'
 alias vim="nvim"
 alias vi="nvim"
 
-export NVM_DIR="/usr/local/opt/nvm"
-. "$NVM_DIR/nvm.sh" --no-use
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#oni
+export oni='/Applications/Oni.app'
+
+#export NVM_DIR="/usr/local/opt/nvm"
+#. "$NVM_DIR/nvm.sh" --no-use
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
+
+
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
@@ -121,7 +141,6 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 
 export ANDROID_SDK=$HOME/Library/Android/sdk
 export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
-
 
 
 ##Rust Toolchain
