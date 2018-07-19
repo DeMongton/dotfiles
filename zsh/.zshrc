@@ -102,6 +102,9 @@ eval "$(pyenv init -)"
 #rbenv
 eval "$(rbenv init -)"
 
+#required for sudo to work with aliases
+alias sudo='sudo '
+
 #weather
 alias weather='curl http://www.wttr.in/Vancouver'
 #nvim 
