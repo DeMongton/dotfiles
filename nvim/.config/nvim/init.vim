@@ -22,7 +22,7 @@ set noshowmode
 set hls is
 set ignorecase
 set autoindent
-set clipboard=unnamed
+set clipboard=unnamedplus
 set backspace=indent,eol,start
 set autoread
 set visualbell

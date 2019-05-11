@@ -3,19 +3,19 @@
 
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
-
+export ZSH=/usr/share/oh-my-zsh/
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="bureau"
 
-
+#older for storing tools that are considered depricated
+export PATH=$PATH:$HOME/deprecated-tools
 
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
+#CASE_SENSITIVE="false"
+#zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
@@ -93,34 +93,37 @@ source $ZSH/oh-my-zsh.sh
 
 
 #tmux
-if [ "$TMUX" = "" ]; then tmux; fi
-
-
-#pyenv
-eval "$(pyenv init -)" 
-
+if [ "$TMUX" = "" ]; then tmux attach -t main || tmux new -s main; fi
 #rbenv
 eval "$(rbenv init -)"
 
+#required for sudo to work with aliases
+alias sudo='sudo '
+
 #weather
 alias weather='curl http://www.wttr.in/Vancouver'
+
 #nvim 
+
 alias vim="nvim"
+
 alias vi="nvim"
 
-#oni
-export oni='/Applications/Oni.app'
+#For webpack-cli to simply be "webpack"
+alias webpack="webpack-cli"
+
+#Arch Linux
+alias pacman="sudo pacman"
 
 #export NVM_DIR="/usr/local/opt/nvm"
 #. "$NVM_DIR/nvm.sh" --no-use
 #[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source /usr/share/fzf/key-bindings.zsh
 
+source /usr/share/fzf/completion.zsh
 
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
-
-
 
 
 # tabtab source for serverless package
@@ -129,8 +132,6 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
-##Adds to the most recent Java version installed
-export JAVA_HOME=$(/usr/libexec/java_home)
 
 
 ##Android PATH settings
@@ -139,10 +140,11 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 ##  export PATH=$ANDROID_HOME/platform-tools:$PATH
 
 
-export ANDROID_SDK=$HOME/Library/Android/sdk
-export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
-
 
 ##Rust Toolchain
 export PATH="$HOME/.cargo/bin:$PATH"
 
+#ESP32
+export PATH="$PATH:$HOME/esp/xtensa-esp32-elf/bin"
+
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
