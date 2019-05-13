@@ -135,9 +135,12 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
 
 ##Android PATH settings
-##  export ANDROID_HOME=$HOME/Library/Android/sdk
-##  export PATH=$ANDROID_HOME/tools:$PATH
-##  export PATH=$ANDROID_HOME/platform-tools:$PATH
+export ANDROID_AVD_HOME=$HOME/.android/avd
+export ANDROID_HOME=$HOME/Android/Sdk
+export ANDROID_SDK_HOME=$HOME/Android/Sdk
+export ANDROID_SDK_ROOT=$HOME/Android/Sdk
+#export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
+
 
 
 
