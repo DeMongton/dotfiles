@@ -4,7 +4,6 @@ set ttyfast
 set number
 set ruler
 set rulerformat=%15(%c%V\ %p%%%)
-set mouse=a
 filetype on
 filetype plugin on
 filetype indent on
@@ -37,13 +36,12 @@ set undofile
 "for Python set tabs to 4
 "set tabstop=4
 set tabstop=2
-set softtabstop=0
 set expandtab
 "for python set shiftwidth to 4
 "set shiftwidth=4
 set shiftwidth=2
 set smarttab
-
+                
 "-----Custom Mappings-----
 map <leader><space> :!mix test<CR>
 

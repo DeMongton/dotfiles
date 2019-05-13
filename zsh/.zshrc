@@ -77,7 +77,7 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -107,6 +107,10 @@ alias sudo='sudo '
 
 #weather
 alias weather='curl http://www.wttr.in/Vancouver'
+
+#BTC
+alias bitcoin='curl http://www.rate.sx/btc'
+
 #nvim 
 alias vim="nvim"
 alias vi="nvim"
@@ -122,6 +126,15 @@ export oni='/Applications/Oni.app'
 
 
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
+#python
+# Find your Python User Base path (where Python --user will install packages/scripts)
+USER_BASE_PATH=$(python -m site --user-base)
+
+# Update your preferred shell configuration
+## Standard bash --> ~/.bash_profile
+## ZSH           --> ~/.zshrc
+export PATH=$PATH:$USER_BASE_PATH/bin
 
 
 
@@ -144,8 +157,11 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 
 export ANDROID_SDK=$HOME/Library/Android/sdk
 export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
-
+export PATH=$(brew --prefix)/sbin:$PATH
 
 ##Rust Toolchain
 export PATH="$HOME/.cargo/bin:$PATH"
 
+#
+#
+export PATH="/usr/local/opt/gettext/bin:$PATH"
