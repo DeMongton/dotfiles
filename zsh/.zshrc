@@ -161,7 +161,4 @@ export PATH=$(brew --prefix)/sbin:$PATH
 
 ##Rust Toolchain
 export PATH="$HOME/.cargo/bin:$PATH"
-
-#
-#
 export PATH="/usr/local/opt/gettext/bin:$PATH"
