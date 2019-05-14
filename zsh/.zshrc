@@ -115,6 +115,9 @@ alias webpack="webpack-cli"
 #Arch Linux
 alias pacman="sudo pacman"
 
+#Opening files seamlessly
+alias open="setsid -f xdg-open"
+
 #export NVM_DIR="/usr/local/opt/nvm"
 #. "$NVM_DIR/nvm.sh" --no-use
 #[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -140,6 +143,7 @@ export ANDROID_HOME=$HOME/Android/Sdk
 export ANDROID_SDK_HOME=$HOME/Android/Sdk
 export ANDROID_SDK_ROOT=$HOME/Android/Sdk
 #export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
+
 
 
 
