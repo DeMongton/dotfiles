@@ -103,12 +103,9 @@ alias sudo='sudo '
 #weather
 alias weather='curl http://www.wttr.in/Vancouver'
 
-<<<<<<< HEAD
-=======
 #BTC
 alias bitcoin='curl http://www.rate.sx/btc'
 
->>>>>>> master
 #nvim 
 
 alias vim="nvim"
