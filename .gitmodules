@@ -37,3 +37,6 @@
 [submodule "tmux/.config/tmux/plugins/tmux-resurrect"]
 	path = tmux/.config/tmux/plugins/tmux-resurrect
 	url = https://github.com/tmux-plugins/tmux-resurrect
+[submodule "nvim/.config/nvim/bundle/vim-svelte"]
+	path = nvim/.config/nvim/bundle/vim-svelte
+	url = https://github.com/burner/vim-svelte.git

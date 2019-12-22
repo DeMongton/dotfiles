@@ -93,7 +93,7 @@ source $ZSH/oh-my-zsh.sh
 
 
 #tmux
-if [ "$TMUX" = "" ]; then tmux attach -t main || tmux new -s main; fi
+if [[ ! $(ps -e | grep tmux) ]] && [[ "$TMUX" = "" ]]; then tmux new -s main; else fi
 #rbenv
 eval "$(rbenv init -)"
 
@@ -122,9 +122,12 @@ alias open="setsid -f xdg-open"
 #. "$NVM_DIR/nvm.sh" --no-use
 #[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+export FZF_CTRL_T_OPTS="--preview 'bat --color=always {}'"
+
 source /usr/share/fzf/key-bindings.zsh
 
 source /usr/share/fzf/completion.zsh
+
 
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 

@@ -8,9 +8,9 @@ URxvt.iso14755: False
 URxvt.perl-ext-common: default,clipboard
 
 
-#define S_base03        #002b36
+#define S_base03        #373B41
 #define S_base02        #073642
-#define S_base01        #586e75
+#define green           #578999
 #define S_base00        #657b83
 #define S_base0         #839496
 #define S_base1         #93a1a1
@@ -31,7 +31,7 @@ URxvt.perl-ext-common: default,clipboard
 #define S_violet        #6c71c4
 #define S_blue          #268bd2
 #define S_cyan          #2aa198
-#define Brt_green       #5af78e
+#define Bright_green    #5af78e
 
 !! black dark/light
 *color0:                S_base02
@@ -41,8 +41,8 @@ URxvt.perl-ext-common: default,clipboard
 *color1:                S_red
 *color9:                S_orange
 
-!! green dark/light
-*color2:                Brt_green
+!! greens
+*color2:                Bright_green 
 *color10:               S_base01
 
 !! yellow dark/light
@@ -69,3 +69,7 @@ URxvt.perl-ext-common: default,clipboard
 !! depth was  24
 URxvt.depth: 32
 URxvt.background: rgba:1111/1111/1111/dddd
+
+urxvt*dynamicColors: on
+
+
