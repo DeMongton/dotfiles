@@ -48,7 +48,6 @@ set smarttab
 map <leader><space> :!mix test<CR>
 
 "-----Plugin related configurations-----
-execute pathogen#infect()
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'onedark'
 let g:airline#extensions#ale#enabled = 1
