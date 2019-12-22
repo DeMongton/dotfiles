@@ -1,12 +1,11 @@
 Pascal's dotfiles
 ==========
-After being requested to share my dotfiles by a co-worker, I've decided to make them available via this repo.
 
-**NOTE:** As this repo contains my own personal configurations, the contents of this repo are subject to change without notice.
+**NOTE:** This repo contains my own personal configurations, the contents of this repo are subject to change without notice.
 
 ### Requirements
 You should make sure that you do not have any of the dotfiles in your `$HOME`. While optional, for easy deployment I highly recommend using [GNU Stow](https://www.gnu.org/software/stow/).
-The main branch contains my configurations for Mac, however each other branch represents a different operating system/distribution that I use. Given that each config is located in separate folders, you can also choose to install only those that you need.
+The main branch contains my generic configurations for any Unix or Unix-line system, however each other branch represents unique configurations to a particular operating system/distribution that I use. Given that each config is located in separate folders, you can also choose to install only those that you need.
 
 ### Installation 
 ```
