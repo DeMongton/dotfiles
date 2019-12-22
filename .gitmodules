@@ -1,35 +1,35 @@
-[submodule "vim/.vim/bundle/alchemist.vim"]
-	path = vim/.vim/bundle/alchemist.vim
+[submodule "nvim/.local/share/nvim/site/pack/legacy/start/alchemist.vim"]
+	path = nvim/.local/share/nvim/site/pack/legacy/start/alchemist.vim
 	url = https://github.com/slashmili/alchemist.vim
-[submodule "vim/.vim/bundle/syntastic"]
-	path = vim/.vim/bundle/syntastic
+[submodule "nvim/.local/share/nvim/site/pack/legacy/start/syntastic"]
+	path = nvim/.local/share/nvim/site/pack/legacy/start/syntastic
 	url = https://github.com/vim-syntastic/syntastic
-[submodule "vim/.vim/bundle/vim-airline"]
-	path = vim/.vim/bundle/vim-airline
+[submodule "nvim/.local/share/nvim/site/pack/legacy/start/vim-airline"]
+	path = nvim/.local/share/nvim/site/pack/legacy/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
-[submodule "vim/.vim/bundle/vim-airline-themes"]
-	path = vim/.vim/bundle/vim-airline-themes
+[submodule "nvim/.local/share/nvim/site/pack/legacy/start/vim-airline-themes"]
+	path = nvim/.local/share/nvim/site/pack/legacy/start/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
-[submodule "vim/.vim/bundle/vim-elixir"]
-	path = vim/.vim/bundle/vim-elixir
+[submodule "nvim/.local/share/nvim/site/pack/legacy/start/vim-elixir"]
+	path = nvim/.local/share/nvim/site/pack/legacy/start/vim-elixir
 	url = https://github.com/elixir-editors/vim-elixir
 [submodule "iterm2/.iterm2/themes/iterm2-snazzy"]
 	path = iterm2/.iterm2/themes/iterm2-snazzy
 	url = https://github.com/sindresorhus/iterm2-snazzy.git
-[submodule "vim/.vim/bundle/vim-javascript"]
-	path = vim/.vim/bundle/vim-javascript
+[submodule "nvim/.local/share/nvim/site/pack/legacy/start/vim-javascript"]
+	path = nvim/.local/share/nvim/site/pack/legacy/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
-[submodule "vim/.vim/bundle/vim-jsx"]
-	path = vim/.vim/bundle/vim-jsx
+[submodule "nvim/.local/share/nvim/site/pack/legacy/start/vim-jsx"]
+	path = nvim/.local/share/nvim/site/pack/legacy/start/vim-jsx
 	url = https://github.com/mxw/vim-jsx.git
-[submodule "vim/.vim/bundle/vim-prettier"]
-	path = vim/.vim/bundle/vim-prettier
+[submodule "nvim/.local/share/nvim/site/pack/legacy/start/vim-prettier"]
+	path = nvim/.local/share/nvim/site/pack/legacy/start/vim-prettier
 	url = https://github.com/prettier/vim-prettier
-[submodule "vim/.vim/bundle/vim-fugitive"]
-	path = vim/.vim/bundle/vim-fugitive
+[submodule "nvim/.local/share/nvim/site/pack/legacy/start/vim-fugitive"]
+	path = nvim/.local/share/nvim/site/pack/legacy/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "nvim/.config/nvim/bundle/ale"]
-	path = nvim/.config/nvim/bundle/ale
+[submodule "nvim/.local/share/nvim/site/pack/legacy/start/ale"]
+	path = nvim/.local/share/nvim/site/pack/legacy/start/ale
 	url = https://github.com/w0rp/ale.git
 [submodule "nvim/.config/nvim/vim-pathogen"]
 	path = nvim/.config/nvim/vim-pathogen
