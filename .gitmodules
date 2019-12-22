@@ -26,8 +26,8 @@
 	path = nvim/.local/share/nvim/site/pack/legacy/start/ale
 	url = https://github.com/w0rp/ale.git
 [submodule "nvim/.local/share/nvim/site/pack/legacy/start/vim-svelte"]
-  path = nvim/.local/share/nvim/site/pack/legacy/start/vim-svelte
-  url = https://github.com/burner/vim-svelte.git
+	path = nvim/.local/share/nvim/site/pack/legacy/start/vim-svelte
+	url = https://github.com/burner/vim-svelte.git
 [submodule "tmux/.config/tmux/plugins/tmux-resurrect"]
 	path = tmux/.config/tmux/plugins/tmux-resurrect
 	url = https://github.com/tmux-plugins/tmux-resurrect
