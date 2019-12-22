@@ -1,9 +1,6 @@
 [submodule "nvim/.local/share/nvim/site/pack/legacy/start/alchemist.vim"]
 	path = nvim/.local/share/nvim/site/pack/legacy/start/alchemist.vim
 	url = https://github.com/slashmili/alchemist.vim
-[submodule "nvim/.local/share/nvim/site/pack/legacy/start/syntastic"]
-	path = nvim/.local/share/nvim/site/pack/legacy/start/syntastic
-	url = https://github.com/vim-syntastic/syntastic
 [submodule "nvim/.local/share/nvim/site/pack/legacy/start/vim-airline"]
 	path = nvim/.local/share/nvim/site/pack/legacy/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
@@ -31,6 +28,6 @@
 [submodule "nvim/.local/share/nvim/site/pack/legacy/start/ale"]
 	path = nvim/.local/share/nvim/site/pack/legacy/start/ale
 	url = https://github.com/w0rp/ale.git
-[submodule "nvim/.config/nvim/vim-pathogen"]
-	path = nvim/.config/nvim/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen.git
+[submodule "tmux/.config/tmux/plugins/tmux-resurrect"]
+	path = tmux/.config/tmux/plugins/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect

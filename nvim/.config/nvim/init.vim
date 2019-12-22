@@ -4,20 +4,22 @@ set ttyfast
 set number
 set ruler
 set rulerformat=%15(%c%V\ %p%%%)
-set mouse=a
 filetype on
 filetype plugin on
 filetype indent on
 set laststatus=2
 set t_Co=256
-colorscheme peachpuff 
-hi LineNr ctermfg=239 ctermbg=236 
-hi CursorLineNr ctermfg=245 ctermbg=236
+colorscheme elflord 
+hi LineNr ctermfg=239 ctermbg=235 
+hi CursorLineNr ctermfg=245 ctermbg=235
 hi CursorColumn ctermbg=DarkGray
 hi CursorLine cterm=NONE ctermbg=DarkGray
 hi! EndOfBuffer cterm=NONE 
 hi QuickFixLine ctermbg=167 ctermfg=white
 hi Visual term=reverse gui=reverse ctermbg=NONE
+hi Visual term=reverse cterm=reverse gui=reverse guifg=Grey80 guibg=fg
+hi Search ctermfg=black
+hi Comment ctermfg=223
 set noshowmode  
 set hls is
 set ignorecase
@@ -37,13 +39,12 @@ set undofile
 "for Python set tabs to 4
 "set tabstop=4
 set tabstop=2
-set softtabstop=0
 set expandtab
 "for python set shiftwidth to 4
 "set shiftwidth=4
 set shiftwidth=2
 set smarttab
-
+                
 "-----Custom Mappings-----
 map <leader><space> :!mix test<CR>
 

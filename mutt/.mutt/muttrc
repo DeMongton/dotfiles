@@ -1,0 +1,17 @@
+#External Files 
+source ~/.mutt/credentials                   
+
+set ssl_starttls=yes
+set ssl_force_tls=yes
+set imap_keepalive = 900
+set realname='Pascal Noël'
+set header_cache = "~/.mutt/cache/headers"
+set message_cachedir = "~/.mutt/cache/bodies"
+set certificate_file = "~/.mutt/certificates"
+set move = no
+set smtp_authenticators = 'gssapi:login'
+
+#Bindings
+bind pager \177 previous-line                #Set BackSpace on macOS
+
+
