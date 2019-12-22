@@ -162,11 +162,6 @@ export ANDROID_SDK_HOME=$HOME/Android/Sdk
 export ANDROID_SDK_ROOT=$HOME/Android/Sdk
 #export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
 
-
-
-<<<<<<< HEAD
-
-
 ##Rust Toolchain
 export PATH="$HOME/.cargo/bin:$PATH"
 
@@ -174,7 +169,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$PATH:$HOME/esp/xtensa-esp32-elf/bin"
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
-=======
 export ANDROID_SDK=$HOME/Library/Android/sdk
 export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
 export PATH=$(brew --prefix)/sbin:$PATH
@@ -182,4 +176,3 @@ export PATH=$(brew --prefix)/sbin:$PATH
 ##Rust Toolchain
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="/usr/local/opt/gettext/bin:$PATH"
->>>>>>> master
