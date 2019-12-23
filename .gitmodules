@@ -10,9 +10,6 @@
 [submodule "nvim/.local/share/nvim/site/pack/legacy/start/vim-elixir"]
 	path = nvim/.local/share/nvim/site/pack/legacy/start/vim-elixir
 	url = https://github.com/elixir-editors/vim-elixir
-[submodule "iterm2/.iterm2/themes/iterm2-snazzy"]
-	path = iterm2/.iterm2/themes/iterm2-snazzy
-	url = https://github.com/sindresorhus/iterm2-snazzy.git
 [submodule "nvim/.local/share/nvim/site/pack/legacy/start/vim-javascript"]
 	path = nvim/.local/share/nvim/site/pack/legacy/start/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
