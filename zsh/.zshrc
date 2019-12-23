@@ -5,12 +5,11 @@
 #Unix Location
 export ZSH=/usr/share/oh-my-zsh/
 
-# ssh
-export SSH_KEY_PATH="~/.ssh/rsa_id"
-
 #Mac location
 #export ZSH=$HOME/.oh-my-zsh
 
+# ssh
+export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Update your preferred shell configuration
 ## Standard bash --> ~/.bash_profile
