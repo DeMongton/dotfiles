@@ -34,9 +34,15 @@ export PATH="/usr/local/opt/gettext/bin:$PATH"
 #Custom Exports#
 ################
 #ESP32
+
 export PATH="$PATH:$HOME/esp/xtensa-esp32-elf/bin"
+
 #Deprecated Tools folder
 export PATH=$PATH:$HOME/deprecated-tools
+
+#export PATH="$PATH:$HOME/esp/xtensa-esp32-elf/bin"
+#Deprecated Tools folder
+#export PATH=$PATH:$HOME/deprecated-tools
 
 #######
 #Theme#
@@ -103,6 +109,10 @@ if [[ ! $(ps -e | grep tmux) ]] && [[ "$TMUX" = "" ]]; then tmux new -s main; el
 
 #Opening files seamlessly
 alias open="setsid -f xdg-open"
+
+#tmux
+#if [[ ! $(ps -e | grep tmux) ]] && [[ "$TMUX" = "" ]]; then tmux new -s main; else fi
+
 
 #############################
 #Mac Specific Configurations#
