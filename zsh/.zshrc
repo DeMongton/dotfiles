@@ -34,9 +34,9 @@ export PATH="/usr/local/opt/gettext/bin:$PATH"
 #Custom Exports#
 ################
 #ESP32
-#export PATH="$PATH:$HOME/esp/xtensa-esp32-elf/bin"
+export PATH="$PATH:$HOME/esp/xtensa-esp32-elf/bin"
 #Deprecated Tools folder
-#export PATH=$PATH:$HOME/deprecated-tools
+export PATH=$PATH:$HOME/deprecated-tools
 
 #######
 #Theme#
@@ -96,13 +96,13 @@ USER_BASE_PATH=$(python -m site --user-base)
 ####################################
 
 #pacman
-#alias pacman="sudo pacman"
+alias pacman="sudo pacman"
 
 #tmux
-#if [[ ! $(ps -e | grep tmux) ]] && [[ "$TMUX" = "" ]]; then tmux new -s main; else fi
+if [[ ! $(ps -e | grep tmux) ]] && [[ "$TMUX" = "" ]]; then tmux new -s main; else fi
 
 #Opening files seamlessly
-#alias open="setsid -f xdg-open"
+alias open="setsid -f xdg-open"
 
 #############################
 #Mac Specific Configurations#
